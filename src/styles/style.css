@@ -1,0 +1,133 @@
+.divClass {
+  background-color: rgb(240, 240, 240);
+  width: 200px;
+  height: 250px;
+  float: left;
+  margin: 4px;
+  text-align: center;
+}
+
+/* div:nth-child(1) {
+  margin-left: 21px;
+}
+div:nth-child(5) {
+  margin-left: 21px;
+} */
+
+img {
+  margin-top: 10px;
+
+  height: 120px;
+  width: 90px;
+  /* float: left; */
+}
+
+.divMainContainer {
+  float: center;
+  margin-right: 25px;
+  margin-left: 45px;
+}
+
+.divMainHeader {
+  border-bottom: 1px solid silver;
+  height: 70px;
+}
+
+.divTitle {
+  /* float: left; */
+  /* width: 500px; */
+  height: 40px;
+}
+
+.divAddBook {
+  float: right;
+  padding-top: 5px;
+  margin: 0px;
+}
+
+.inputSearch {
+  text-align: center;
+}
+
+.addButton {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: -8px;
+
+  text-align: right;
+  float: right;
+  border: none;
+  padding: 8px;
+}
+
+input[type='button'] {
+  background-color: rgb(230, 230, 230);
+  margin-right: 7px;
+  margin-bottom: 15px;
+
+  text-align: right;
+  float: right;
+  border: none;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+}
+
+input[type='button'] :hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+span {
+  margin-left: 2px;
+}
+
+.searchBar {
+  border-radius: 14px;
+  min-width: 450px;
+  min-height: 25px;
+  outline: none;
+  padding-left: 10px;
+  margin: 20px;
+  font-size: 14px;
+  border: 1px solid rgb(161, 161, 161);
+}
+
+h5 {
+  margin: 2px;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 70px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 50px;
+  color: rgb(39, 39, 39);
+}
+
+.itemInput {
+  border: 1px solid silver;
+  margin: 5px;
+  min-width: 350px;
+  height: 30px;
+  border-radius: 4px;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.closeAddBook {
+  font-size: 20px;
+  float: right;
+  margin: 0px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.closeButtonContainer {
+  margin-top: 50px;
+  margin-right: 40px;
+}
